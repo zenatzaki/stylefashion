@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style model.com</title>
+   
+    
+    <style>
+        body {
+            background-color: #eef7fb;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 8px solid rgb(35, 53, 52);
+        }
+
+        .header {
+            padding: 17px;
+            background-color: #61548a;
+            color:whitesmoke;
+            text-align: left;
+            text-transform: tranparent;
+            font-size: 1rem;
+            font-family: Safia;
+            padding-left: 20px;
+            padding-top: 10px;
+            display: flex;
+            padding-bottom: 10px;
+            gap: 10px;
+        }
+
+        .navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:#61548a;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:#61548a;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+         .box-container {
+            width: 100%;
+            height: 50%;
+            background-color: #61548a;
+            padding-top: 5px;
+            color: whitesmoke;
+            font-size: 26px;
+            align-content: center;
+            justify-content: center;
+            padding-bottom: 5px;
+         }
+              
+         .box1 {
+            width: 100%;
+            height: 50%;
+            background-color: #61548a;
+            gap: 15px;
+            padding-top: 10px;
+            font-size: 26px;
+            color: whitesmoke;
+            align-content: center;
+            justify-content: center;
+            margin-left: 0;
+         }
+
+   
+
+         .image {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            float: left;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            border: solid black;
+            background-color: #f2f2f2;
+            padding-top: 10px;
+            padding-bottom: 10px;
+         }
+         
+
+         .footer {
+       
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 30px;
+                background-color: #61548a;
+                color: rgb(226, 231, 231);
+                font-size: 7px;
+                text-align: right;
+                text-transform: uppercase;
+                padding-right: 10px;
+            }
+
+            .image {
+               font-size: 20px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               color:#61548a;
+               text-align: center;
+            }
+            .container {
+               position: relative;
+               text-align: center;
+               color: rgb(0, 0, 0);
+            }
+            .top-left {
+              position: absolute;
+              top: 200px;
+              left: 150px;
+              font-size: 3rem;
+            }
+            .box2 {
+              font-size: 20px;
+              background-color: #61548a;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              color: whitesmoke;
+            }
+         
+            * {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #040306;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #61548a;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+   .box3 {
+    background-color: #61548a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f2f2f2;
+   }      
+
+   .THANKYOU  {
+    color: #61548a;
+   }
+    a:any-link {
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+   <div class="header">
+    <h1><link href='https://fonts.google.com/specimen/Protest+Strike' rel='stylesheet'>STYLE FASHION COMPANY</h1>
+    
+    </div>
+    
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <div class="subnav">
+        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="company.html">Company</a>
+          <a href="#team">Team</a>
+          <a href="#careers">Careers</a>
+          <a href="Afghani clothes.html">Afghani clothes</a>
+         </div>
+      </div> 
+
+      <div class="subnav">
+        <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#link1">Me (Zenat Zaki)</a>
+          <a href="#link2"></a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="container">
+      <img src="https://img.freepik.com/free-photo/high-fashion-portrait-young-elegant-blonde-woman-black-wool-hat-wearing-oversize-white-fringe-poncho-with-long-grey-dress_273443-3799.jpg" style="width: 100%;">
+      <div class="top-left"><link href="https://fonts.google.com/specimen/Lobster">Elegance is always in style</div>
+     <div class="box-container">
+        <p>This fashion style is the best famous fashion and the models are Afghan poeple,we will interdouse them
+        <div class="image">
+       <img src='./image.jpg' width="400 height 800">
+       <img src="./image2.jpg" width="400 height 800">
+       <img src="./image3.jpg" width="400 height 800">
+       </div>
+      </div>
+     
+          
+          <div class="footer">
+            <h1>All rights received to Style Fashion Company</h1><br>
+          </div>
+          <div class="box2">
+          <p style="font-size: 25px;">Also you can buy every clothes, every you want and for that we have information to how to buy clothes in our Services link<br> we will tell you to how to buy every kind of clothes like: daily fashion clothes, party, pop clothes, sports, etc.</p>
+          </div>
+          <img src="./model2.png" style="width: 100% height 100%;">
+          <div class="box3">
+          <p style="font-size: 25px;">Beacuse it is a big company we are also cell Afghani clothes you will see that in this link in other page(in the first when you enter to our page we links page,go to about and then you can find Afghani clothes)</p>
+          </div>
+
+          <h2 style="text-align:center">The price of clothes</h2>
+          <p style="text-align:center">Every clothes has a different price.</p>
+          
+          <div class="columns">
+            <ul class="price">
+              <li class="header">The Afghani clothes prices</li>
+              <li class="grey">every kind of Afghani clothes / for cell 400$ up to highest price / for rent 1200$</li>
+              <li>shoes / 400$ up to high price </li>
+              <li>the jewlery of Afghani clothes 1500$</li>
+              <li class="grey"><a href="#" class="button">Sent Email here!</a></li>
+            </ul>
+          </div>
+          
+          <div class="columns">
+            <ul class="price">
+              <li class="header" style="background-color: #61548a;">The daily fashion clothes</li>
+              <li class="grey">the suits price/ 1800$</li>
+              <li>the price of shoes every kind of shoes/ 500$ up to high</li>
+              <li>the jeans and sweater/ 200$ up to 5000$</li>
+              <li>the price of coat, rain coat, hats glassess/ 150$ up to highest</li>
+              <li class="grey"><a href="#" class="button">Sent Email here!</a></li>
+            </ul>
+          </div>
+          
+          <div class="columns">
+            <ul class="price">
+              <li class="header">The party or wedding clothes</li>
+              <li class="grey">The bride dress / 2500$</li>
+              <li>The dresses / 2000 up highest</li>
+              <li>the jewlery / 900$up to 100,000$</li>
+              <li>The shoes / 900$ up to highest</li>
+              <li|>The clothes of Mans/ 500$ up to highest price</li>
+              <li class="grey"><a href="#" class="button">Sent Email here!</a></li>
+            </ul>
+          </div>
+         <br>
+         <h1>And for other information about us and etc,<br>click to our links.<br><span class="THANK YOU">THANK YOU!</span></h1>
+
+         <
